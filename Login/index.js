@@ -3,7 +3,7 @@ const password = window.document.querySelector('#pass');
 const mensaje = window.document.querySelector('#msj');
 const boton = window.document.querySelector('#btn');
 
-boton.addEventListener('click', mostrarDatos);
+boton.addEventListener('click', validar);
 
 function mostrarDatos(){
 	const emailValue = email.value;
@@ -23,6 +23,12 @@ function validarCorreo(){
 	var regex = /^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
 	return regex.test(email) ? true : false;
 }
-function validarPassword(){
-
+function validar(){
+	const emailValue = email.value;
+	const passValue = password.value;
+	 if (emailvalue == "ejemplo@gmail.com" && passValue == '123456') {
+        console.log('Iniciando sesión…');
+    } else {
+        console.log('Email y/o Contraseña incorrectos');
+    }
 }
