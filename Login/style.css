@@ -1,0 +1,76 @@
+body {
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    display: block;
+}
+
+* {
+    box-sizing: border-box;
+}
+.login {
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    background: #FFFFFF;
+    margin: auto;
+}
+.contenedor {
+    display: grid;
+    position: absolute;
+    grid-template-rows: 30% 20% 20% 20% 10%;
+    width: 600px;
+    height: 450px;
+    left: 420px;
+    top: 287px;
+    background: #F2FCFF;
+    border: 2px solid #C3F1FF;
+    box-sizing: border-box;
+    border-radius: 30px;
+    margin: auto;
+    padding: auto;
+    justify-content: center;
+}
+h1{
+	font-size: 42px;
+	line-height: 49px;
+	color: #5AD2AE;
+}
+section #correo{
+	background: #FFFFFF;
+	border: 1px solid #C3F1FF;
+	box-sizing: border-box;
+	border-radius: 39.5px;
+	height: 4em;
+    width: 22em;
+}
+section #pass{
+	background: #FFFFFF;
+	border: 1px solid #C3F1FF;
+	box-sizing: border-box;
+	border-radius: 39.5px;
+	height: 4em;
+    width: 22em;
+}
+::placeholder {
+    color: #5AD2AE;
+    font-size: 1.6em;
+    padding: 1em;
+}
+#btn{
+	background: #5AD2AE;
+	border: 1px solid #469F85;
+	box-sizing: border-box;
+	border-radius: 39.5px;
+	height: 3em;
+    width: 14.8em;
+    font-size: 20px;
+	line-height: 28px;
+	color: #FFFFFF;
+}
+.safary{
+	text-align: center;
+	color: #AFAFAF;
+	font-size: 21px;
+}
