@@ -3,8 +3,6 @@ const password = window.document.querySelector('#pass');
 const mensaje = window.document.querySelector('#msj');
 const boton = window.document.querySelector('#btn');
 
-var pass = document.getElementById("password").value;
-
 boton.addEventListener('click', mostrarDatos);
 
 function mostrarDatos(){
@@ -16,14 +14,14 @@ function mostrarDatos(){
 		email.value = '';
 		password.value ='';
 		email.focus();
-
 	} else{
 		console.log('No has escrito nada');
 	}
 }
+
 function validarCorreo(){
 	var regex = /^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
-	return regex.test(correo) ? true : false;
+	return regex.test(email) ? true : false;
 }
 function validarPassword(){
 
