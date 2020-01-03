@@ -1,0 +1,30 @@
+body{
+	margin: 0;
+}
+*{
+	box-sizing: border-box;
+}
+img{
+	width: 6em;
+}
+.contenedor{
+	margin: 0 auto;
+	display: grid;
+
+	width: 500px;
+	padding: 30px;
+ 	background: teal;
+	border: 10px solid black;
+}
+.contenedorArtistas{
+	display: grid;
+	grid-template-columns: 33.33% 33.33% 33.34%;
+}
+.contenedorArtistas article{
+	padding: 10px;
+	grid-gap: 10px;
+	background: #5as2ae;
+	justify-content: center;
+	border: 1px solid #f2fcff;
+	border-radius: 20px;
+}
