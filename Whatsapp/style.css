@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    height: 100vh;
+}
+main{
+    display: block;
+}
+.lista{
+    background-color: #DBDBDB;
+    height: 3em;
+    border: 1px solid #8C8C8C;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 50px;
+}
+
+.listaContactos article{
+    height: 3em;
+    padding-top: 1.8em;
+    border: 1px #DBDBDB solid;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+}
+.item:hover{
+    background-color: #F2F2F2;
+}
+main header{
+    text-align: center;
+    background-color: #DBDBDB;
+    border: 1px solid #8C8C8C;
+    height: 3em;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 50px;
+}
+.msj{
+    height: 18.63em;
+    background: #F2F2F2;
+}
+.secMsj{
+    height: 3em;
+    background: #F2F2F2;
+}
+.msjs{
+    margin-left: 1em;
+    padding-top: 0.6em;
+    border: 1.5px solid #DBDBDB;
+    width: 47em;
+    height: 1.9em;
+    padding-left: 1em;
+    border-radius: 50px;
+    background: #FFFFFF;
+}
+.msjs input{
+    border: none;
+    width: 39em;
+    background: #FFFFFF;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #8F8F8F;
+}

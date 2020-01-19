@@ -4,28 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <title>Layout</title>
 </head>
 <body>
-    <header>
-
-
+    <header class="titulo">
+        <h1>Zafary</h1>
     </header>
-    <section>
-        <aside>
-            <ul>
-                <li>Zpotify</li>
-                <li>Whatsapp</li>
-            </ul>
+    <section class="contenedor">
+        <aside class="seleccion">
+            <article id="home">
+                <p><i class="fas fa-home"></i> Home</p>
+            </article>
+            <article id="whatsapp">
+                <p><i class="fab fa-whatsapp"></i> Whatsapp</p>
+            </article>
+            <article id="zpotify">
+                <p><i class="fab fa-spotify"></i> Zpotify</p>
+            </article>
         </aside>
-        <main>
-            <header>
-                <h3>Zpotify</h3>
-            </header>
-            <section>
-                <iframe src="../Zpotify/index.html" frameborder="0"></iframe>
-            </section>
+        <main class="principal">
+            <h2 id="tDinamico">Zafary</h2>
+            <iframe src="./../Home/index.html" id="dinamico" class="iframe" frameborder="0"></iframe>
         </main>
     </section>
+    <script src="index.js"></script>
 </body>
 </html>

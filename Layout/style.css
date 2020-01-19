@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.contenedor{
+    margin: 0;
+    display: grid;
+    grid-template-columns: 25% 75%;
+    height: 90vh;
+}
+
+.titulo h1{
+    margin: 0;
+    font-size: 48px;
+    color: #FFFFFF;
+    background: #333333;
+    text-align: center;
+    line-height: 1.5em;
+    height: 1.5em;
+}
+main{
+    display: block;
+}
+.seleccion{
+    background: #C3F1FF;    
+}
+.principal{
+    background: #F2FCFF;
+}
+article{
+    height: 3em;
+    text-align: center;
+    font-size: 30px;
+}
+article p{
+    padding-top: 0.8em;
+    margin: 0;
+}
+article:hover{
+    background: #77DFFF;
+}
+#tDinamico{
+    margin: 0.3em;
+    text-align:center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 56px;
+}
+.iframe{
+    width: 71em;
+    height: 38em;
+}

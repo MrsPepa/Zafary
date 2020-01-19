@@ -4,6 +4,8 @@ body {
     border: none;
     outline: none;
     display: block;
+    font-family: Roboto;
+    font-style: normal;
 }
 
 * {
@@ -68,6 +70,10 @@ section #pass{
     font-size: 20px;
 	line-height: 28px;
 	color: #FFFFFF;
+}
+.msjError{
+    color: red;
+    
 }
 .safary{
 	text-align: center;
