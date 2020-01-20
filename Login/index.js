@@ -11,10 +11,14 @@ function validar(){
 
 	 if (email.value == "ejemplo@gmail.com" && password.value == '123456') {
         console.log('Iniciando sesión…');
+        email.value = '';
+        password.value = '';
         document.location.assign('./../Layout/index.html');
 
     } else {
         errorMsj.classList.remove(['hide']);
+        email.value = '';
+        password.value = '';
         console.log('Email y/o Contraseña incorrectos');
     }
 }
