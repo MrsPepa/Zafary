@@ -3,6 +3,8 @@ body{
     display: grid;
     grid-template-columns: 30% 70%;
     height: 100vh;
+    font-family: Roboto;
+    font-style: normal;
 }
 main{
     display: block;
@@ -11,22 +13,22 @@ main{
     background-color: #DBDBDB;
     height: 3em;
     border: 1px solid #8C8C8C;
-    font-family: Roboto;
-    font-style: normal;
     font-weight: normal;
     font-size: 36px;
     line-height: 50px;
 }
 
 .listaContactos article{
-    height: 3em;
-    padding: 1.8em 0 0 1em;
-    border: 1px #DBDBDB solid;
-    font-family: Roboto;
-    font-style: normal;
+    height: 4.8em;
+    border: 1px solid #DBDBDB;
     font-weight: normal;
     font-size: 14px;
     line-height: 16px;
+}
+.item img{
+    border-radius: 50%;
+    height: 3em;
+    width: 3em;
 }
 .item:hover{
     background-color: #F2F2F2;
@@ -36,8 +38,6 @@ main header{
     background-color: #DBDBDB;
     border: 1px solid #8C8C8C;
     height: 3em;
-    font-family: Roboto;
-    font-style: normal;
     font-weight: normal;
     font-size: 36px;
     line-height: 107px;
@@ -64,8 +64,6 @@ main header{
     border: none;
     width: 39em;
     background: #FFFFFF;
-    font-family: Roboto;
-    font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 21px;
