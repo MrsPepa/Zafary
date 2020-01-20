@@ -14,7 +14,7 @@ function cargarHome(){
 }
 function cargarWzp(){
     dinamico.setAttribute('src', './../Whatsapp/index.html');
-    titulo.innerHTML = 'Whatsapp';
+    titulo.innerHTML = 'Whatzapp';
 }
 function cargarZpotify(){
     dinamico.setAttribute('src', './../Zpotify/index.html');
