@@ -20,7 +20,7 @@ main{
 
 .listaContactos article{
     height: 3em;
-    padding-top: 1.8em;
+    padding: 1.8em 0 0 1em;
     border: 1px #DBDBDB solid;
     font-family: Roboto;
     font-style: normal;
@@ -40,7 +40,7 @@ main header{
     font-style: normal;
     font-weight: normal;
     font-size: 36px;
-    line-height: 50px;
+    line-height: 107px;
 }
 .msj{
     height: 18.63em;

@@ -1,0 +1,19 @@
+body{
+	margin: 0;
+	font-family: Roboto;
+    font-style: normal;
+}
+*{
+	box-sizing: border-box;
+}
+.contenedor{
+    text-align: center;
+	display:block;
+}
+h1{
+    text-align: center;
+    
+}
+.contenedor img{
+    width: 110vh;
+}

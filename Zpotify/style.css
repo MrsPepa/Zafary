@@ -9,14 +9,18 @@ body{
 main{
 	display:block;
 }
+header{
+	text-align: center;
+}
 img{
-	width: 100px;
-	height: 100px;
+	width: 80px;
+	height: 80px;
+	border-radius: 45%;
 }
 .contenedor{
 	margin: 0 auto;
 	display: grid;
-
+	border-radius: 30px;
 	width: 500px;
 	padding: 30px;
 	background: #E5E5E5;
@@ -29,8 +33,13 @@ img{
 .contenedorArtistas article{
 	padding: 10px;
 	grid-gap: 10px;
-	justify-content: center;
+	text-align: center;
 	border: 1px solid #29CEFF;
 	border-radius: 20px;
 	background: #5AD2AE;
+	color: #FFFFFF;
+	margin: 0 15px 15px 15px;
+}
+.contenedorArtistas article p{
+	margin: 0;
 }
