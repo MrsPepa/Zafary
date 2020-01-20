@@ -31,6 +31,7 @@ article{
     height: 3em;
     text-align: center;
     font-size: 30px;
+    border: 1px solid #77DFFF;
 }
 article p{
     padding-top: 0.8em;

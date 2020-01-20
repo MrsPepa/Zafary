@@ -12,26 +12,23 @@ body {
     box-sizing: border-box;
 }
 .login {
-    position: relative;
-    width: 1440px;
-    height: 1024px;
+    width: 100vh;
+    height: 100vh;
     background: #FFFFFF;
     margin: auto;
 }
 .contenedor {
     display: grid;
     position: absolute;
-    grid-template-rows: 30% 20% 20% 20% 10%;
     width: 600px;
     height: 450px;
-    left: 420px;
-    top: 287px;
+    left: 480px;
+    top: 160px;
     background: #F2FCFF;
     border: 2px solid #C3F1FF;
     box-sizing: border-box;
     border-radius: 30px;
     margin: auto;
-    padding: auto;
     justify-content: center;
 }
 h1{
@@ -74,6 +71,9 @@ section #pass{
 .msjError{
     color: red;
     
+}
+.hide{
+    display: none;
 }
 .safary{
 	text-align: center;
